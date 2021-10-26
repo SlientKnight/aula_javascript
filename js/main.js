@@ -1,5 +1,35 @@
+function clicou(){
+    document.getElementById("video").innerHTML = "<b> Youtube </b>"
+    //console.log(document.getElementById("agradecimento"))
+}
+
+function redirecionar() {
+    window.open("https://www.youtube.com/?gl=BR") //abre uma nova aba
+    //window.location.href = "https://www.youtube.com/?gl=BR" //abre na mesma aba
+}
+
+function em_cima(elemento){
+    elemento.innerHTML = "obrigado por passar o mouse"
+    //document.getElementById("mouse-move").innerHTML = "obrigado por passar o mouse"
+}
+
+function fora(elemento){
+    elemento.innerHTML = "passe o mouse aqui"
+    //document.getElementById("mouse-move").innerHTML = "passe o mouse aqui"
+}
+
+function load(){
+    alert("pagina carregada")
+}
+
+function mudanca(elemento){
+    console.log(elemento.value)
+}
+
+/*
 var d = new Date()
-alert(d.getDay())
+alert(d.getMinutes())
+*/
 
 /*
 var count;
