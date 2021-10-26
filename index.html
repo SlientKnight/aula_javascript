@@ -5,9 +5,19 @@
     <head>
         <title>Minha pagina</title>
     </head>
-    <body>
-        <h1>
-            Minha pagina html
-        </h1>
+    <body onload="load()">
+        <button type="button" onclick="clicou()">Clique Aqui</button>
+        <p id="video" onclick="redirecionar()"></p>
+        <p id="mouse-move" onmouseover="em_cima(this)" onmouseout="fora(this)">passe o mouse aqui</p>
+        <p id="mouse-move-2" onmouseover="em_cima(this)" onmouseout="fora(this)">não, passe o mouse aqui</p>
+        <p onmouseover="em_cima(this)" onmouseout="fora(this)">não, passe o mouse aqui</p>
+
+        <select onchange="mudanca(this)">
+            <option value="0">escolha um Valor</option>
+            <option value="1">Valor 1</option>
+            <option value="2">Valor 2</option>
+            <option value="3">Valor 3</option>
+        </select>
+
     </body>
 </html>
